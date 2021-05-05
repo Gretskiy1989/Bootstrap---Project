@@ -1,0 +1,108 @@
+.prices_module {
+  background-color: $fifth-color;
+  padding: 50px 0 80px 0;
+
+  .prices_module_slide {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .colortext {
+      color: $seventh-color;
+    }
+
+    h2 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-large;
+      color: $first-color;
+      font-weight: 800;
+      margin: 0 25px;
+    }
+
+    img {
+      margin-top: 7px;
+      width: 30px;
+      height: 15px;
+    }
+  }
+  .full_title {
+    text-align: center;
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-medium;
+    color: $third-color;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .info_box {
+    text-align: center;
+    border: 1px solid $eighth-color;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 300px;
+
+    .btn {
+      @extend %message-btn;
+      width: 145px;
+      height: 40px;
+      margin-top: -20px;
+      margin-left: 25%;
+    }
+    &:hover .btn {
+      background-color: $seventh-color;
+      color: $fifth-color;
+      transition: 0.5s;
+    }
+
+    .btn_star {
+      @extend %message-btn;
+      width: 200px;
+      height: 40px;
+      margin-top: -20px;
+      margin-left: 15%;
+      border: none;
+
+      img {
+        padding: 1px 8px 0 8px;
+      }
+    }
+    &:hover .btn_star {
+      background-color: $seventh-color;
+      color: $fifth-color;
+      transition: 0.5s;
+    }
+
+    @extend %message-price;
+
+    .list {
+      p {
+        font-family: "Raleway-Medium", sans-serif;
+        font-size: $font-medium;
+        color: $third-color;
+      }
+    }
+
+    .down_form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .sing_up {
+        background-color: $seventh-color;
+        font-family: "Raleway-ExtraBold", sans-serif;
+        font-size: $font-xx-small;
+        color: $fifth-color;
+        width: 120px;
+        height: 40px;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px;
+        margin-top: 23px;
+        margin-bottom: 23px;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.contact_panel {
+  display: flex;
+  justify-content: center;
+  background-color: $seventh-color;
+  padding: 30px 0 30px 0;
+
+  .text {
+    h5 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-medium;
+      text-transform: uppercase;
+      color: $fifth-color;
+      margin-top: 10px;
+    }
+  }
+
+  .contact-us {
+    text-align: right;
+    .btn {
+      background-color: $eighth-color;
+      font-family: "Raleway-ExtraBold", sans-serif;
+      color: $ninth-color;
+      font-size: $font-x-small;
+      text-transform: uppercase;
+      border-radius: 5px;
+      border: none;
+      margin-left: 10px;
+      padding: 12px;
+    }
+
+    .btn:hover {
+      background-color: $fifth-color;
+      color: $seventh-color;
+      box-shadow: 0 0 10px $fifth-color;
+      transition: all 0.5s;
+    }
+  }
+}

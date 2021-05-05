@@ -1,0 +1,64 @@
+.amazing_features_module {
+  position: relative;
+  background-color: $secondary-color;
+  color: $fifth-color;
+  padding-top: 50px;
+
+  .amazing_features_slide {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .colortext {
+      color: $seventh-color;
+    }
+
+    h2 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-large;
+      color: $fifth-color;
+      font-weight: 800;
+      margin: 0 25px;
+    }
+
+    img {
+      margin-top: 7px;
+      width: 30px;
+      height: 15px;
+    }
+  }
+
+  .full_title {
+    text-align: center;
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-medium;
+    color: $third-color;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .wrapper_box {
+    margin-top: 90px;
+    .amazing_features_box {
+      display: flex;
+      margin-bottom: 50px;
+
+      @extend %message-text_box_for_amazing_features;
+    }
+  }
+
+  .decoration {
+    position: relative;
+    overflow: hidden;
+    .first_logo {
+      position: absolute;
+      left: 57%;
+      top: 15%;
+    }
+    .second_logo {
+      position: absolute;
+      left: 23%;
+      top: 40%;
+    }
+  }
+}

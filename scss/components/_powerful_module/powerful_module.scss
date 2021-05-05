@@ -1,0 +1,84 @@
+.powerful_module {
+  position: relative;
+  text-align: center;
+  background-color: $secondary-color;
+  color: $fifth-color;
+  padding: 50px 0 60px 0;
+
+  .powerful_module_slide {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .colortext {
+      color: $seventh-color;
+    }
+
+    h2 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-large;
+      color: $fifth-color;
+      font-weight: 800;
+      margin: 0 25px;
+    }
+
+    img {
+      margin-top: 7px;
+      width: 30px;
+      height: 15px;
+    }
+  }
+
+  .full_title {
+    text-align: center;
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-medium;
+    color: $third-color;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  h5 {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: $font-small;
+    text-transform: uppercase;
+    color: $ninth-color;
+    margin: 15px auto;
+  }
+
+  .box-1 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 75%, lightgrey 20%) border-box;
+  }
+
+  .box-2 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 92%, lightgrey 20%) border-box;
+  }
+
+  .box-3 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 68%, lightgrey 20%) border-box;
+  }
+
+  .box-4 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 100%, lightgrey 20%) border-box;
+  }
+
+  .box-5 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 83%, lightgrey 20%) border-box;
+  }
+
+  .box-6 {
+    @extend %message-circle_box;
+    background: linear-gradient($secondary-color, $secondary-color) padding-box,
+      conic-gradient(lightseagreen 50%, lightgrey 20%) border-box;
+  }
+}

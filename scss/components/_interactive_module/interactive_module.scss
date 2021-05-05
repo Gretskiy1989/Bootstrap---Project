@@ -1,0 +1,50 @@
+.interactive_module {
+  background-image: url(../images/background/map.jpg);
+  padding: 100px 0 100px 0;
+  position: relative;
+
+  .feedback_box {
+    .form-control {
+      font-family: "Raleway-Medium", sans-serif;
+      font-size: 12px;
+      color: $fourth-color;
+      font-style: oblique;
+      text-transform: none;
+    }
+
+    background-color: $fifth-color;
+    border: 1px solid $fourth-color;
+    border-radius: 5px;
+
+    .reply {
+      .btn {
+        width: 100%;
+        background-color: $seventh-color;
+        font-family: "Raleway-ExtraBold", sans-serif;
+        font-size: $font-x-small;
+        color: $fifth-color;
+        text-transform: uppercase;
+        border-radius: 5px;
+
+        margin-left: 10px;
+        padding: 12px;
+        margin: 0 auto;
+        border: 1px solid $seventh-color;
+      }
+
+      .btn:hover {
+        border: 1px solid $seventh-color;
+        background-color: $fifth-color;
+        color: $seventh-color;
+        box-shadow: 0 0 10px $seventh-color;
+        transition: all 0.5s;
+      }
+    }
+  }
+
+  .location {
+    position: absolute;
+    top: 210px;
+    left: 920px;
+  }
+}

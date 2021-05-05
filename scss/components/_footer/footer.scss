@@ -1,0 +1,12 @@
+.footer_wrapper {
+  position: relative;
+  background-color: $secondary-color;
+  padding: 50px 0 50px 0;
+  text-align: center;
+
+  h6 {
+    font-family: "Raleway-Medium", sans-serif;
+    color: $fifth-color;
+    font-size: $font-small;
+  }
+}

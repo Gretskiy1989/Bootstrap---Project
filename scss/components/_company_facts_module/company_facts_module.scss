@@ -1,0 +1,111 @@
+.company_facts_module {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  background-color: $secondary-color;
+  color: $fifth-color;
+  padding: 50px 0 60px 0;
+
+  .company_facts_module_slide {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+    .colortext {
+      color: $seventh-color;
+    }
+
+    h2 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-large;
+      color: $fifth-color;
+      font-weight: 800;
+      margin: 0 25px;
+    }
+
+    img {
+      margin-top: 7px;
+      width: 30px;
+      height: 15px;
+    }
+  }
+
+  .full_title {
+    text-align: center;
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-medium;
+    color: $third-color;
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .digital_block {
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+    &:before,
+    &:after {
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      transform: rotate(45deg);
+      background: $fourth-color;
+      border-radius: 3px;
+      position: absolute;
+      top: 50%;
+    }
+
+    &:before {
+      left: 60px;
+    }
+
+    &:after {
+      right: 50px;
+    }
+
+    &:hover {
+      &:before,
+      &:after {
+        background: $seventh-color;
+      }
+    }
+
+    h2 {
+      font-family: "Raleway", sans-serif;
+      font-size: $font-xxx-large;
+      line-height: 1.2;
+      font-style: oblique;
+      color: $fifth-color;
+      font-weight: 800;
+      margin: 0 25px;
+    }
+
+    img {
+      margin-top: 50px;
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .special_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    .second {
+      margin-top: -10px;
+    }
+  }
+  .special_text {
+    h5 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-small;
+      text-transform: uppercase;
+      color: $ninth-color;
+      margin-top: 20px;
+    }
+  }
+}

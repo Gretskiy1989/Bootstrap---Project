@@ -1,0 +1,41 @@
+.form_group_module {
+  background-color: $fifth-color;
+  padding: 80px 0 50px 0;
+
+  .form_group_box {
+    display: flex;
+    margin-bottom: 50px;
+
+    .icon-wrap {
+      position: relative;
+      display: inline-block;
+      width: 80px;
+      height: 70px;
+      background-image: url("../images/icons/icon-filled.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+
+    &:hover .icon-wrap {
+      background-image: url("../images/icons/icon-not-filled.png");
+    }
+
+    .icon {
+      position: absolute;
+      top: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+
+    .text_form_group_box {
+      margin-left: 20px;
+
+      @extend %message-text_form_group_box;
+    }
+  }
+}

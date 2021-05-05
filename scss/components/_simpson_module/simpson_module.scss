@@ -1,0 +1,46 @@
+.simpson_module {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  background-color: $seventh-color;
+  padding: 50px 0 60px 0;
+
+  .text_slider {
+    .carousel-indicators {
+      position: static;
+      margin-top: 20px;
+    }
+  }
+
+  .btn {
+    background-color: $eighth-color;
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: $font-x-small;
+    color: $seventh-color;
+    width: 250px;
+    height: 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 30px;
+
+    .ceo {
+      font-family: "Raleway", sans-serif;
+      font-size: $font-xx-small;
+      color: $fourth-color;
+      font-style: oblique;
+      text-transform: none;
+    }
+  }
+  .btn:hover {
+    background-color: $fifth-color;
+    color: $secondary-color;
+    box-shadow: 0 0 10px $fifth-color;
+    transition: all 0.5s;
+  }
+
+  .text_slider {
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-medium;
+    color: $eighth-color;
+  }
+}

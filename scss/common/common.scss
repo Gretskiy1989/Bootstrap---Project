@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.icon-base:before,
+.icon-base:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.icon-base:before {
+  top: calc(-40px / 2);
+  background-color: #00a99d;
+  border-radius: 3px;
+  transform: rotate(45deg);
+}
+.icon-base:after {
+  top: calc(-40px / 2);
+  border-radius: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  transform: rotate(-45deg);
+}
+
+.icon-bag:before,
+.icon-bag:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.icon-bag:before {
+  top: calc(-40px / 2);
+  background-color: #00a99d;
+  border-radius: 3px;
+  transform: rotate(45deg);
+}
+.icon-bag:after {
+  top: calc(-40px / 2);
+  border-radius: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.icon-check:before,
+.icon-check:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.icon-check:before {
+  top: calc(-40px / 2);
+  background-color: #383838;
+  border-radius: 3px;
+  transform: rotate(45deg);
+}
+.icon-check:after {
+  top: calc(-40px / 2);
+  border-radius: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.icon-caret:before,
+.icon-caret:after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.icon-caret:before {
+  top: calc(-40px / 2);
+  background-color: #00a99d;
+  border-radius: 3px;
+  transform: rotate(45deg);
+}
+.icon-caret:after {
+  top: calc(-40px / 2);
+  border-radius: 3px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}

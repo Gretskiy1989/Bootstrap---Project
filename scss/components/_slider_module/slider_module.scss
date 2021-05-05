@@ -1,0 +1,28 @@
+.slider_module {
+  background: $secondary-color;
+  padding: 50px 0 50px 0;
+  color: white;
+  position: relative;
+  font-family: "Agency FB", sans-serif;
+
+  .carousel-inner {
+    .col-md-3 {
+      position: relative;
+      background-color: $first-color;
+      width: 270px;
+      height: 180px;
+      border-radius: 5px;
+      margin-right: auto;
+      margin-left: auto;
+
+      img {
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        width: 260px;
+        height: 172px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,159 @@
+/* Наследование для intro_module (first_box, second_box, third_box) */
+%message-image-flex {
+  .image-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 33px;
+
+    img {
+      width: 40px;
+    }
+  }
+}
+
+%message-box_text {
+  .box_text {
+    h5 {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-small;
+      text-transform: uppercase;
+      color: $ninth-color;
+    }
+
+    p {
+      font-family: "Raleway-Medium", sans-serif;
+      font-size: $font-x-small;
+      color: $ninth-color;
+    }
+  }
+}
+
+%message-touch_for_intro_module {
+  .touch_for_intro_module {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: $font-xx-small;
+    color: $third-color;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid $third-color;
+  }
+}
+
+/* Наследование для amazing_features_module */
+%message-text_box_for_amazing_features {
+  h5 {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: $font-small;
+    text-transform: uppercase;
+    color: $eighth-color;
+    margin-left: 40px;
+  }
+
+  p {
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-x-small;
+    color: $fourth-color;
+    margin-left: 40px;
+  }
+}
+
+/* Наследование для form_group_module */
+%message-text_form_group_box {
+  h5 {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: $font-small;
+    text-transform: uppercase;
+    color: $ninth-color;
+  }
+
+  .tabs {
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-xx-small;
+    color: $fourth-color;
+  }
+
+  p {
+    font-family: "Raleway-Medium", sans-serif;
+    font-size: $font-x-small;
+    color: $ninth-color;
+  }
+}
+
+/* Наследование для powerful_module */
+%message-circle_box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  transform: rotate(270deg);
+  p {
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway-ExtraBold", sans-serif;
+    font-size: 2em;
+    transform: rotate(90deg);
+    margin-top: 50px;
+  }
+}
+@keyframes animation {
+  from {
+    background-color: $seventh-color;
+  }
+
+  to {
+    background-color: $seventh-color;
+  }
+}
+
+/* Наследование для .prices_module */
+%message-price {
+  .price {
+    position: relative;
+    .money {
+      margin-right: 5px;
+      font-family: "Raleway-Medium", sans-serif;
+      font-size: $font-small;
+      color: $third-color;
+    }
+    .sum {
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-xx-large;
+      color: $first-color;
+    }
+    .cents {
+      position: absolute;
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-small;
+      color: $first-color;
+      top: 15px;
+    }
+    .monthly {
+      margin-left: 8px;
+      font-family: "Raleway-Medium", sans-serif;
+      font-size: $font-x-small;
+      color: $third-color;
+    }
+  }
+}
+%message-btn {
+  display: flex;
+  justify-content: center;
+  background-color: $secondary-color;
+  font-family: "Raleway-ExtraBold", sans-serif;
+  font-size: $font-x-small;
+  color: $fifth-color;
+  box-shadow: 0 0 10px 0px black;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}

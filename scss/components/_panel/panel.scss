@@ -1,0 +1,47 @@
+.panel {
+  display: flex;
+  justify-content: center;
+  background-color: $third-color;
+  padding: 55px 0 55px 0;
+
+  .text {
+    h4 {
+      .tabs {
+        text-transform: uppercase;
+      }
+      font-family: "Raleway-ExtraBold", sans-serif;
+      font-size: $font-large;
+      color: $secondary-color;
+      margin-top: 10px;
+    }
+    img {
+      margin-top: -5px;
+    }
+  }
+
+  .contact-us {
+    text-align: right;
+    .btn {
+      background-color: $seventh-color;
+      font-family: "Raleway-ExtraBold", sans-serif;
+      color: $fifth-color;
+      font-size: $font-x-small;
+      text-transform: uppercase;
+      border-radius: 5px;
+      border: none;
+      margin-left: 10px;
+      padding: 10px;
+      img {
+        margin-left: 8px;
+        margin-top: -4px;
+      }
+    }
+
+    .btn:hover {
+      background-color: $fifth-color;
+      color: $seventh-color;
+      box-shadow: 0 0 10px $fifth-color;
+      transition: all 0.5s;
+    }
+  }
+}

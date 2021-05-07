@@ -339,23 +339,27 @@ body {
   border-bottom: 2px solid #dedede;
   padding: 30px 0;
 }
-.header_wrapper .logo {
+.header_wrapper .container-md {
   display: flex;
+  flex-wrap: inherit;
   align-items: center;
+  justify-content: space-between;
 }
-.header_wrapper .navbar {
+.header_wrapper .container-md .navbar {
+  display: block;
   padding: 5px;
+  text-align: right;
 }
-.header_wrapper .navbar .nav_menu Ul {
+.header_wrapper .container-md .navbar .nav_menu Ul {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
-.header_wrapper .navbar .nav_menu Ul li {
+.header_wrapper .container-md .navbar .nav_menu Ul li {
   list-style-type: none;
-  margin-right: 10px;
+  margin-left: 10px;
 }
-.header_wrapper .navbar .nav_menu Ul li a {
+.header_wrapper .container-md .navbar .nav_menu Ul li a {
   font-family: "Raleway-ExtraBold", sans-serif;
   color: #606060;
   font-size: 14px;
@@ -365,18 +369,18 @@ body {
   padding: 10px;
   border-radius: 5px;
 }
-.header_wrapper .navbar .nav_menu Ul li a:hover {
+.header_wrapper .container-md .navbar .nav_menu Ul li a:hover {
   background-color: #00a99d;
   color: #f9f9f9;
 }
-.header_wrapper .navbar .nav_menu Ul li .active_link {
+.header_wrapper .container-md .navbar .nav_menu Ul li .active_link {
   background-color: #00a99d;
   color: #f9f9f9;
 }
-.header_wrapper .navbar .search {
+.header_wrapper .container-md .navbar .search {
   display: flex !important;
 }
-.header_wrapper .navbar .search .form-control {
+.header_wrapper .container-md .navbar .search .form-control {
   font-family: "Raleway-ExtraBold", sans-serif;
   font-size: 14px;
   border: 1px solid #00a99d;
@@ -385,17 +389,17 @@ body {
   box-shadow: initial;
   margin-right: 0.5rem !important;
 }
-.header_wrapper .navbar .search .form-control:hover {
+.header_wrapper .container-md .navbar .search .form-control:hover {
   box-shadow: 0 0 10px #00a99d;
 }
-.header_wrapper .navbar .search .submit {
+.header_wrapper .container-md .navbar .search .submit {
   border: 1px solid #00a99d;
   background-color: white;
   box-shadow: initial;
   padding: 0 10px;
   border-radius: 4px;
 }
-.header_wrapper .navbar .search .submit:hover {
+.header_wrapper .container-md .navbar .search .submit:hover {
   background-color: white;
   box-shadow: 0 0 10px #00a99d;
 }
@@ -1276,11 +1280,6 @@ body {
   color: #00a99d;
   box-shadow: 0 0 10px #00a99d;
   transition: all 0.5s;
-}
-.interactive_module .location {
-  position: absolute;
-  top: 210px;
-  left: 920px;
 }
 
 .footer_wrapper {

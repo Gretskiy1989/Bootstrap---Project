@@ -3,74 +3,78 @@
   border-bottom: 2px solid $eighth-color;
   padding: 30px 0;
 
-  .logo {
+  .container-md {
     display: flex;
+    flex-wrap: inherit;
     align-items: center;
-  }
+    justify-content: space-between;
 
-  .navbar {
-    padding: 5px;
+    .navbar {
+      display: block;
+      padding: 5px;
+      text-align: right;
 
-    .nav_menu {
-      Ul {
-        padding-left: 0;
-        margin-bottom: 0;
-        list-style: none;
+      .nav_menu {
+        Ul {
+          padding-left: 0;
+          margin-bottom: 0;
+          list-style: none;
 
-        li {
-          list-style-type: none;
-          margin-right: 10px;
+          li {
+            list-style-type: none;
+            margin-left: 10px;
 
-          a {
-            font-family: "Raleway-ExtraBold", sans-serif;
-            color: $ninth-color;
-            font-size: $font-x-small;
-            line-height: initial;
-            text-transform: uppercase;
-            text-decoration: none;
-            padding: 10px;
-            border-radius: 5px;
+            a {
+              font-family: "Raleway-ExtraBold", sans-serif;
+              color: $ninth-color;
+              font-size: $font-x-small;
+              line-height: initial;
+              text-transform: uppercase;
+              text-decoration: none;
+              padding: 10px;
+              border-radius: 5px;
 
-            &:hover {
+              &:hover {
+                background-color: $seventh-color;
+                color: $fifth-color;
+              }
+            }
+
+            .active_link {
               background-color: $seventh-color;
               color: $fifth-color;
             }
           }
+        }
+      }
+      .search {
+        display: flex !important;
 
-          .active_link {
-            background-color: $seventh-color;
-            color: $fifth-color;
+        .form-control {
+          font-family: "Raleway-ExtraBold", sans-serif;
+          font-size: $font-x-small;
+          border: 1px solid $seventh-color;
+          color: $fourth-color;
+          text-transform: uppercase;
+          box-shadow: initial;
+          margin-right: 0.5rem !important;
+
+          &:hover {
+            box-shadow: 0 0 10px $seventh-color;
           }
         }
-      }
-    }
-    .search {
-      display: flex !important;
 
-      .form-control {
-        font-family: "Raleway-ExtraBold", sans-serif;
-        font-size: $font-x-small;
-        border: 1px solid $seventh-color;
-        color: $fourth-color;
-        text-transform: uppercase;
-        box-shadow: initial;
-        margin-right: 0.5rem !important;
-
-        &:hover {
-          box-shadow: 0 0 10px $seventh-color;
-        }
-      }
-
-      .submit {
-        border: 1px solid $seventh-color;
-        background-color: white;
-        box-shadow: initial;
-        padding: 0 10px;
-        border-radius: 4px;
-
-        &:hover {
+        .submit {
+          border: 1px solid $seventh-color;
           background-color: white;
-          box-shadow: 0 0 10px $seventh-color;
+          box-shadow: initial;
+          padding: 0 10px;
+          border-radius: 4px;
+
+          &:hover {
+            background-color: white;
+            box-shadow: 0 0 10px $seventh-color;
+          }
         }
       }
     }
